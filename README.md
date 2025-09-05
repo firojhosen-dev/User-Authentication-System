@@ -23,9 +23,26 @@ A secure and simple *User Authentication System* built using *PHP* and *MySQL*, 
 
 ---
 
-## 📁 Project Structure
+# 📂 User Authentication System – Folder Structure
 
-/user-auth-system/ │ ├── config/ │   └── db.php              # Database connection file │ ├── auth/ │   ├── register.php        # User registration script │   ├── login.php           # User login script │   └── logout.php          # Logout script │ ├── includes/ │   └── header.php          # Common header for pages │ ├── dashboard.php           # Protected page after login ├── index.php               # Login form ├── register.php            # Registration form └── README.md               # Project documentation
+```text
+/user-auth-system/
+├── config/
+│   └── db.php              # Database connection file
+│
+├── auth/
+│   ├── register.php        # User registration script
+│   ├── login.php           # User login script
+│   └── logout.php          # Logout script
+│
+├── includes/
+│   └── header.php          # Common header for pages
+│
+├── dashboard.php           # Protected page after login
+├── index.php               # Login form
+├── register.php            # Registration form
+└── README.md               # Project documentation
+```
 
 2. Import the database:
 Open phpMyAdmin
@@ -47,3 +64,4 @@ Passionate PHP & Python Developer
 
 📄 License
 This project is licensed under the MIT License — feel free to use and modify it as you wish.
+
